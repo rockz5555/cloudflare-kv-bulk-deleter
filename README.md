@@ -139,7 +139,7 @@ Please keep the code style consistent — no semicolons, no trailing commas, ES 
 
 ## 📄 License
 
-MIT © [your name]
+MIT © Nijoo
 
 ---
 
