@@ -1,6 +1,6 @@
 {
   "name": "cloudflare-kv-bulk-deleter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "☁  Bulk delete Cloudflare KV keys with a beautiful interactive terminal UI",
   "type": "module",
   "main": "index.mjs",
