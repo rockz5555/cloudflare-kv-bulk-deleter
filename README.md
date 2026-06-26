@@ -46,22 +46,6 @@ node index.mjs
 
 ---
 
-## 🖼️ Screenshots
-
-| Banner | Account & Namespace |
-|---|---|
-| ![Banner](screenshots/screenshot_banner.png) | ![Menu](screenshots/screenshot_menu.png) |
-
-| Danger zone | Results panel |
-|---|---|
-| ![Danger](screenshots/screenshot_danger.png) | ![Results](screenshots/screenshot_results.png) |
-
-| Exit screen |
-|---|
-| ![Exit](screenshots/screenshot_exit.png) |
-
----
-
 ## 🔧 Configuration
 
 The first time you run the tool, it will ask for:
@@ -101,12 +85,6 @@ cloudflare-kv-bulk-deleter/
 ├── package.json       # Dependencies
 ├── start.cmd          # Double-click launcher
 ├── start.ps1          # Installer + launcher (PowerShell)
-├── screenshots/       # App screenshots
-│   ├── screenshot_banner.png
-│   ├── screenshot_menu.png
-│   ├── screenshot_danger.png
-│   ├── screenshot_results.png
-│   └── screenshot_exit.png
 ├── README.md          # This file
 └── LICENSE
 ```
