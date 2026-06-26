@@ -7,6 +7,12 @@
   "bin": {
     "cf-kv-delete": "index.mjs"
   },
+  "files": [
+    "index.mjs",
+    "package.json",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "start": "node index.mjs",
     "dev": "node index.mjs"
@@ -15,16 +21,26 @@
     "cloudflare",
     "kv",
     "bulk-delete",
-    "cli"
+    "cli",
+    "workers",
+    "namespace"
   ],
   "author": "Nijoo (https://github.com/rockz5555)",
-  "license": "ISC",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rockz5555/cloudflare-kv-bulk-deleter.git"
+  },
+  "homepage": "https://github.com/rockz5555/cloudflare-kv-bulk-deleter",
+  "bugs": {
+    "url": "https://github.com/rockz5555/cloudflare-kv-bulk-deleter/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
   "dependencies": {
     "@clack/prompts": "^1.0.0",
     "chalk": "^4.0.0",
     "gradient-string": "^3.0.0"
-  },
-  "devDependencies": {
-    "postject": "^1.0.0-alpha.6"
   }
 }
