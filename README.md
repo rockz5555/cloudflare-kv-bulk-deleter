@@ -2,9 +2,10 @@
 
 > Blazing-fast, interactive KV namespace cleaner with a gorgeous CLI experience.
 
+[![npm](https://img.shields.io/npm/v/cloudflare-kv-bulk-deleter)](https://www.npmjs.com/package/cloudflare-kv-bulk-deleter)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Node](https://img.shields.io/badge/node-%3E%3D18-brightgreen)](https://nodejs.org)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](https://github.com/your-username/cloudflare-kv-bulk-deleter/pulls)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](https://github.com/rockz5555/cloudflare-kv-bulk-deleter/pulls)
 
 ---
 
@@ -28,18 +29,16 @@
 
 ### Run
 
-Double-click **`start.cmd`** (Windows).
-
-The installer will:
-1. Check for Node.js
-2. Ask **Install to folder** or **Portable mode**
-3. Install dependencies
-4. Launch the app
-
-Or from terminal:
-
+**One-liner (no install):**
 ```bash
-git clone https://github.com/your-username/cloudflare-kv-bulk-deleter.git
+npx cloudflare-kv-bulk-deleter
+```
+
+**Windows — double-click `start.cmd`** (handles install + launch).
+
+**Clone & run:**
+```bash
+git clone https://github.com/rockz5555/cloudflare-kv-bulk-deleter.git
 cd cloudflare-kv-bulk-deleter
 npm install
 node index.mjs
