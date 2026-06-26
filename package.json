@@ -1,0 +1,30 @@
+{
+  "name": "cloudflare-kv-bulk-deleter",
+  "version": "1.0.0",
+  "description": "☁  Bulk delete Cloudflare KV keys with a beautiful interactive terminal UI",
+  "type": "module",
+  "main": "index.mjs",
+  "bin": {
+    "cf-kv-delete": "index.mjs"
+  },
+  "scripts": {
+    "start": "node index.mjs",
+    "dev": "node index.mjs"
+  },
+  "keywords": [
+    "cloudflare",
+    "kv",
+    "bulk-delete",
+    "cli"
+  ],
+  "author": "Nijoo (https://github.com/rockz5555)",
+  "license": "ISC",
+  "dependencies": {
+    "@clack/prompts": "^1.0.0",
+    "chalk": "^4.0.0",
+    "gradient-string": "^3.0.0"
+  },
+  "devDependencies": {
+    "postject": "^1.0.0-alpha.6"
+  }
+}
